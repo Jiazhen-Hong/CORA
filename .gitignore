@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Data & checkpoints 
+*.pth
+*.ckpt
+*.pkl
+*.npy
+*.npz
+*.h5
+*.fif
+data/
+checkpoints/
+logs/
+wandb/
+runs/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
